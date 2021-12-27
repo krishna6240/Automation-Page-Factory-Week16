@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Automation Practice Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Automation Practice Test</h1>
+<p>
+  Test duration: 169.957s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.OurStoresTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userCanDragTheMapAndTakeScreenshot
+      </td>
+  <td class="duration">
+    3.545s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        accepting the alert : [[ChromeDriver: chrome on WINDOWS (912e9b68a11df37036fa8c36d7fe9154)] -> css selector: .dismissButton]<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Krishna\IdeaProjects\Automation-Page-Factory-project-week16/test-output/html/ userCanDragTheMapAndTakeScreenshotMon_Dec_27_12_20_30_GMT_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Krishna\IdeaProjects\Automation-Page-Factory-project-week16/test-output/html/ userCanDragTheMapAndTakeScreenshotMon_Dec_27_12_20_30_GMT_2021.jpg><img src=C:\Users\Krishna\IdeaProjects\Automation-Page-Factory-project-week16/test-output/html/ userCanDragTheMapAndTakeScreenshotMon_Dec_27_12_20_30_GMT_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds<br/>
+&nbsp; (Session info: chrome=96.0.4664.110)<br/>
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
+System info: host: &apos;DELL7480&apos;, ip: &apos;172.28.144.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [912e9b68a11df37036fa8c36d7fe9154, actions {actions=[org.openqa.selenium.interactions.Sequence@29c5ee1d]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Krishna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65141/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 912e9b68a11df37036fa8c36d7fe9154</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)<br />
+              org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)<br />
+              com.automationpractice.pages.OurStoresPage.scrollMapToSeeWestPalmBeach(OurStoresPage.java:41)<br />
+              com.automationpractice.testsuite.OurStoresTest.userCanDragTheMapAndTakeScreenshot(OurStoresTest.java:27)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.CreateAccountTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  customerCanCreateANewAccountUsingValidDetails
+      </td>
+  <td class="duration">
+    21.522s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"krishna", "Patel", "abc12456", "123 Abc Street", "London", "Florida", "12345", "01234567890", "MY ACCOUNT", "krishna Patel"</span><br />
+    
+            <div class="testOutput">
+                        entering random email : <br>
+                                Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //span[normalize-space()='Create an account']]<br>
+                                Entering firstname[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //input[@id='customer_firstname']]<br>
+                                Entering lastname[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //input[@id='customer_lastname']]<br>
+                                Entering password[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //input[@id='passwd']]<br>
+                                Entering address[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //input[@id='address1']]<br>
+                                Entering city[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //input[@id='city']]<br>
+                                Selecting the state[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //select[@id='id_state']]<br>
+                                Entering postalcode[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //input[@id='postcode']]<br>
+                                Entering contact number[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //input[@id='phone_mobile']]<br>
+                                Clicking on register link[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //button[@id='submitAccount']]<br>
+                                Verifying the message[[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> xpath: //h1[contains(text(),'My account')]]<br>
+                                verify the account name : [[ChromeDriver: chrome on WINDOWS (13565151c31e4af4c797b2024444009c)] -> css selector: a[title='View my customer account'] span]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails
+      </td>
+  <td class="duration">
+    23.626s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"$%1234", "DD12**", "abc$%12456", "123 Abc Str%%t", "Lo$%^on", "Florida", "123ssa45", "0123abcd67890", "There are 6 errors"</span><br />
+    
+            <div class="testOutput">
+                        entering random email : <br>
+                                Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //span[normalize-space()='Create an account']]<br>
+                                Entering firstname[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //input[@id='customer_firstname']]<br>
+                                Entering lastname[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //input[@id='customer_lastname']]<br>
+                                Entering password[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //input[@id='passwd']]<br>
+                                Entering address[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //input[@id='address1']]<br>
+                                Entering city[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //input[@id='city']]<br>
+                                Selecting the state[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //select[@id='id_state']]<br>
+                                Entering postalcode[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //input[@id='postcode']]<br>
+                                Entering contact number[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //input[@id='phone_mobile']]<br>
+                                Clicking on register link[[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> xpath: //button[@id='submitAccount']]<br>
+                                verifying error message : [[ChromeDriver: chrome on WINDOWS (216731f24a71dccdbb6c1f335ef2bf11)] -> css selector: div[class='alert alert-danger'] p]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.DeletionTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userShouldBeAbleToDeleteAnItemFromBasket
+      </td>
+  <td class="duration">
+    44.594s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Women", "Summer Dresses", "Your shopping cart is empty."</span><br />
+    
+            <div class="testOutput">
+                        closing shopping cart window : [[ChromeDriver: chrome on WINDOWS (4ab8c9e5109a8e15bb846f044b0b793a)] -> xpath: //span[@title='Close window']]<br>
+                                verifying delete icon : [[ChromeDriver: chrome on WINDOWS (4ab8c9e5109a8e15bb846f044b0b793a)] -> xpath: //a[@class='ajax_cart_block_remove_link']]<br>
+                                removing item from cart : [[ChromeDriver: chrome on WINDOWS (4ab8c9e5109a8e15bb846f044b0b793a)] -> xpath: //a[@class='ajax_cart_block_remove_link']]<br>
+                                verifying empty cart message : Proxy element for: DefaultElementLocator 'By.xpath: //p[@class='alert alert-warning']'<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.SummerDressesOptionTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  viewSummerDressesOptionFromTheNavigationMenu
+      </td>
+  <td class="duration">
+    8.517s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        verifying summer page text : [[ChromeDriver: chrome on WINDOWS (a55182c990826374f5fb7b8dcc4f5660)] -> xpath: (//span[@class='cat-name'])[1]]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.SummerDressesPriceRangeTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updatedSearchResultsAfterChangingPriceRange
+      </td>
+  <td class="duration">
+    5.143s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        verifying summer page text : [[ChromeDriver: chrome on WINDOWS (b73f866b265a602e26bd57a5b9df2228)] -> xpath: (//span[@class='cat-name'])[1]]<br>
+                                moving slider to change price : [[ChromeDriver: chrome on WINDOWS (b73f866b265a602e26bd57a5b9df2228)] -> xpath: //div[@id='left_column']//a[2]]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

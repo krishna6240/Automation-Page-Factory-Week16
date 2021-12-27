@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automation Practice Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.143">
+  <properties />
+  
+  
+            <testcase name="updatedSearchResultsAfterChangingPriceRange" time="5.143" classname="com.automationpractice.testsuite.SummerDressesPriceRangeTest" />
+      
+</testsuite>

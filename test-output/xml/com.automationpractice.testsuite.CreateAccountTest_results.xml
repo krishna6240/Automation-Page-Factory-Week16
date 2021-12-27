@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automation Practice Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="45.148">
+  <properties />
+  
+  
+            <testcase name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" time="23.626" classname="com.automationpractice.testsuite.CreateAccountTest" />
+                <testcase name="customerCanCreateANewAccountUsingValidDetails" time="21.522" classname="com.automationpractice.testsuite.CreateAccountTest" />
+      
+</testsuite>

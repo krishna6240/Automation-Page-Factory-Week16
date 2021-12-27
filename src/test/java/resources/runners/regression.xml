@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+    <listeners>
+        <listener class-name="com.automationpractice.customlisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Automation Practice Test">
+        <classes>
+            <class name="com.automationpractice.testsuite.DeletionTest"></class>
+            <class name="com.automationpractice.testsuite.OurStoresTest"></class>
+            <class name="com.automationpractice.testsuite.SummerDressesOptionTest"></class>
+            <class name="com.automationpractice.testsuite.SummerDressesPriceRangeTest"></class>
+            <class name="com.automationpractice.testsuite.CreateAccountTest"></class>
+        </classes>
+    </test>
+</suite>
